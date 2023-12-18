@@ -1,0 +1,19 @@
+﻿@inject IJSRuntime JSRuntime
+@rendermode InteractiveServer
+
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+
+<h1>Blazor入門用サンプルアプリ</h1>
+
+Welcome!!
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        //await JSRuntime.InvokeVoidAsync("unloadSummernote");
+    }
+}

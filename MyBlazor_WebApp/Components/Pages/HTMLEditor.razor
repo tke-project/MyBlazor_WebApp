@@ -1,0 +1,20 @@
+﻿@page "/html_editor"
+@rendermode InteractiveServer
+
+<script>
+    $(document).ready(function () {
+        $('#summernote').summernote({
+
+            height: 300,
+        });
+    });
+</script>
+
+<PageTitle>HTML Editor</PageTitle>
+
+<h1>HTML Editor</h1>
+
+<div id="summernote"></div>
+
+@code {
+}
